@@ -1,0 +1,20 @@
+<!-- ~/projects/yoursite/themes/minimalist_custom/templates/index.html -->
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="bio">
+        <img src="{{ SITEURL }}/theme/images/your-picture.png" alt="Headshot">
+    </section>
+        <div class="social-media">
+            <a href="https://scholar.google.co.uk/citations?user=LqRiiz0AAAAJ&hl=en"><img src="{{ SITEURL }}/theme/images/scholar-logo.png" alt="Google Scholar"></a>
+            <a href="https://github.com/JacopoGabrielli"><img src="{{ SITEURL }}/theme/images/github-icon.png" alt="GitHub"></a>
+            <a href="https://twitter.com/jacopo_gab"><img src="{{ SITEURL }}/theme/images/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://linkedin.com/in/jacopo-gabrielli-453b58139/"><img src="{{ SITEURL }}/theme/images/linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+    <section class="bio">
+        <p>PhD Student at Imperial College London in Synbio + ML for Gene Therapy. <a href="https://www.hummingbird.vc/">Hummingbird</a> Fellow. 
+            <a href="https://ilikethefuture.com/">SoTA</a> (Society for Technological Advancement) founding member.<br><br> 
+            Previously: <a href="https://www.polaris-fellowship.com/#manifesto1">Polaris</a> fellow, <a href="https://www.womco.co.uk/">digital health</a> founder, AstraZeneca, UCL biochemistry.<br><br>
+            Areas of interest: synbio + ML, cell and gene therapy, CG&T manufacturing, ageing. </p>
+    </section>
+{% endblock %}
